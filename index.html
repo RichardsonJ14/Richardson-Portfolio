@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="green">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Richardson J &mdash; Data Science &amp; Analytics</title>
+  <meta name="description" content="Richardson J &mdash; Data Science &amp; Analytics professional. Python, SQL, Machine Learning and Business Intelligence. Based in Chennai, India." />
+  <meta name="theme-color" content="#0a0d0a" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Pixelify+Sans:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    try { if (sessionStorage.getItem("rj-booted")) document.documentElement.classList.add("skip-boot"); } catch (e) {}
+  </script>
+</head>
+<body>
+  <!-- Startup loading screen -->
+  <div class="boot" id="boot" role="status" aria-live="polite" aria-label="Loading portfolio">
+    <canvas class="live" aria-hidden="true"></canvas>
+    <div class="boot__inner" id="boot-card">
+      <div class="boot__bar">
+        <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="boot__title">boot.sh</span>
+      </div>
+      <div class="boot__body">
+        <ul class="boot__lines" id="boot-lines" aria-hidden="true"></ul>
+        <div class="boot__track" aria-hidden="true"><span id="boot-fill"></span></div>
+        <div class="boot__meta" aria-hidden="true">
+          <span id="boot-status">LOADING</span>
+          <span class="boot__pct"><span id="boot-pct">0</span>%</span>
+        </div>
+        <button class="boot__skip" id="boot-skip" type="button">[ skip &gt;&gt; ]</button>
+      </div>
+    </div>
+  </div>
+
+  <canvas class="live live--page" aria-hidden="true"></canvas>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header class="nav">
+    <div class="nav__in">
+      <a class="nav__brand" href="#top" aria-label="Richardson J &mdash; home"><span class="slash">//</span> RICHARDSON J</a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about" data-nav="about">Intro</a>
+        <a href="#stats" data-nav="stats">Stats</a>
+        <a href="#log" data-nav="log">History</a>
+        <a href="#projects" data-nav="projects">Projects</a>
+        <a href="#skills" data-nav="skills">Skills</a>
+      </nav>
+      <a class="btn btn--primary btn--sm" href="#contact" data-nav="contact">HIRE()</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="wrap">
+        <p class="status"><span class="pulse" aria-hidden="true"></span>SYS_STATUS: AVAILABLE &mdash; RICHARDSON J</p>
+        <h1 class="hero__name">Richardson&nbsp;J</h1>
+        <p class="hero__role" aria-live="polite"><span id="typed" data-words='["Data Science &amp; Analytics","Machine Learning","Python \u00b7 SQL","Business Intelligence"]'>Data Science &amp; Analytics</span><span class="caret" aria-hidden="true"></span></p>
+        <p class="hero__lede">I turn complex datasets into actionable business insights &mdash; through predictive models, clean SQL, and dashboards people actually use.</p>
+
+        <div class="term hero__term">
+          <div class="term__bar"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><span>whoami --status</span></div>
+          <ul class="term__body">
+            <li><b>[OK]</b> 3 projects shipped &middot; ML, BI, IoT</li>
+            <li><b>[OK]</b> ML Engineer Intern &middot; NSIC</li>
+            <li><b>[OK]</b> B.E. Computer Science &middot; CGPA 8.0</li>
+            <li><b>[OK]</b> Python &middot; SQL &middot; Power BI &middot; XGBoost</li>
+            <li class="term__status">STATUS: <span class="pill">OPEN_TO_WORK</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__cta">
+          <a class="btn btn--light" href="#projects">$ VIEW --WORK</a>
+          <a class="btn" href="mailto:richard141104@gmail.com">EMAIL.ME</a>
+          <a class="icon" href="https://github.com/RichardsonJ14" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+          <a class="icon" href="https://linkedin.com/in/richardson-j" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11.5H3V9.75zm6.5 0h3.83v1.57h.06c.53-1 1.84-2.07 3.79-2.07 4.05 0 4.8 2.67 4.8 6.13v5.87h-4v-5.2c0-1.24-.02-2.84-1.73-2.84-1.73 0-2 1.35-2 2.75v5.29h-4V9.75z"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="section" id="about" aria-labelledby="about-h">
+      <div class="wrap">
+        <header class="head reveal">
+          <p class="kicker">// INTRO</p>
+          <h2 class="pixel" id="about-h" data-text="WHO_I_AM">WHO_I_AM</h2>
+        </header>
+        <div class="split">
+          <article class="card reveal">
+            <p class="card__label">bio.txt</p>
+            <p class="lead">Aspiring Data Science and Analytics professional with strong skills in Python, SQL, Machine Learning, and Business Intelligence. Skilled in deriving actionable insights from complex datasets and presenting findings through interactive dashboards.</p>
+            <p>Adept at applying statistical methodologies and predictive modeling to solve real-world business problems.</p>
+          </article>
+          <article class="card card--edge reveal">
+            <p class="card__label">career_focus.md</p>
+            <ul class="tick">
+              <li>Data Science</li>
+              <li>Machine Learning</li>
+              <li>Data Analytics</li>
+              <li>Business Intelligence</li>
+              <li>Python-based data applications</li>
+            </ul>
+            <p class="muted small">Goal: turn data into actionable business insights.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="section" id="stats" aria-labelledby="stats-h">
+      <div class="wrap">
+        <header class="head reveal">
+          <p class="kicker">// METRICS</p>
+          <h2 class="pixel" id="stats-h" data-text="SYS_STATS">SYS_STATS</h2>
+        </header>
+        <div class="bento">
+          <div class="cell stat reveal"><p class="cell__label">Projects shipped</p><p class="num" data-count="3">0</p></div>
+          <div class="cell stat reveal"><p class="cell__label">Engineered features</p><p class="num" data-count="15">0</p></div>
+          <div class="cell stat cell--solid reveal"><p class="cell__label">Financial metrics analyzed</p><p class="num" data-count="10" data-suffix="+">0</p></div>
+          <div class="cell cell--wide reveal">
+            <p class="cell__label">Core stack</p>
+            <p class="tags"><span class="on">PYTHON</span><span>SQL</span><span>PANDAS</span><span>NUMPY</span><span>SCIKIT-LEARN</span><span>XGBOOST</span><span>POWER BI</span><span>DAX</span><span>POWER QUERY</span><span>STREAMLIT</span><span>PLOTLY</span><span>JUPYTER</span></p>
+          </div>
+          <div class="cell cell--hot reveal"><p class="cell__label">Forecast horizon</p><p class="num num--hot">30<small> days</small></p><p class="cell__note">XGBoost price-direction model</p></div>
+          <div class="cell reveal"><p class="cell__label">OHLCV history</p><p class="num">2<small> yrs</small></p><p class="cell__note">15 engineered features</p></div>
+          <div class="cell cell--full cell--status reveal">
+            <div><p class="cell__label">Current status</p><p class="status-big">OPEN_TO_WORK</p></div>
+            <p class="cell__note">Chennai, India &mdash; open to relocation. Focused on Data Science, Analytics and BI roles.</p>
+            <a class="btn btn--primary" href="#contact">CONTACT()</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HISTORY -->
+    <section class="section" id="log" aria-labelledby="log-h">
+      <div class="wrap">
+        <header class="head reveal">
+          <p class="kicker">// HISTORY</p>
+          <h2 class="pixel" id="log-h" data-text="LOG_HISTORY">LOG_HISTORY</h2>
+        </header>
+        <div class="pin">
+          <aside class="pin__side reveal">
+            <p class="lead small-lead">3 entries. Hands-on ML internship experience, backed by a B.E. in Computer Science and a Diploma in Computer Engineering.</p>
+            <div class="mini">
+              <div><p class="num" data-count="1">0</p><p>Internship</p></div>
+              <div><p class="num" data-count="2">0</p><p>Months</p></div>
+              <div><p class="num" data-count="3">0</p><p>Projects</p></div>
+            </div>
+            <p class="hint">KEEP SCROLLING &mdash; HISTORY LOGS DOWNWARD &darr;</p>
+          </aside>
+          <div class="pin__list">
+            <article class="card entry reveal">
+              <span class="tag-pill">LATEST</span>
+              <p class="entry__date">Dec 2024 &ndash; Jan 2025</p>
+              <h3 class="pixel pixel--sm">Machine Learning Engineer Intern</h3>
+              <p class="entry__org">@ NSIC Technical Services Centre &middot; Chennai, India</p>
+              <ul class="diff">
+                <li>Developed a <b>House Price Prediction</b> model using Python, scikit-learn, and XGBoost.</li>
+                <li>Performed end-to-end data preprocessing, feature engineering, cross-validation, and statistical model evaluation.</li>
+                <li>Analyzed datasets to derive actionable business insights.</li>
+                <li>Validated model performance and documented findings in a structured format to communicate results effectively.</li>
+              </ul>
+              <p class="tags"><span>PYTHON</span><span>SCIKIT-LEARN</span><span>XGBOOST</span></p>
+            </article>
+            <article class="card entry reveal">
+              <span class="tag-pill tag-pill--dim">EDUCATION</span>
+              <p class="entry__date">2023 &ndash; 2026</p>
+              <h3 class="pixel pixel--sm">B.E. &mdash; Computer Science</h3>
+              <p class="entry__org">Easwari Engineering College</p>
+              <p class="tags"><span class="on">CGPA: 8.0</span></p>
+            </article>
+            <article class="card entry reveal">
+              <span class="tag-pill tag-pill--dim">EDUCATION</span>
+              <p class="entry__date">2020 &ndash; 2023</p>
+              <h3 class="pixel pixel--sm">Diploma &mdash; Computer Engineering</h3>
+              <p class="entry__org">Panimalar Polytechnic College</p>
+              <p class="tags"><span class="on">SCORE: 90%</span></p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects" aria-labelledby="projects-h">
+      <div class="wrap">
+        <header class="head reveal">
+          <p class="kicker">// PROJECTS</p>
+          <h2 class="pixel" id="projects-h" data-text="BUILD_LOG">BUILD_LOG</h2>
+          <p class="head__sub">Three real systems, designed and built end to end &mdash; not tutorials, not forks.</p>
+        </header>
+
+        <div class="projects">
+          <article class="card project project--flag reveal">
+            <div class="project__top"><span class="tag-pill">FLAGSHIP &mdash; ML &middot; FINTECH</span></div>
+            <h3 class="pixel pixel--md">AI-Powered Stock Research &amp; Analysis Platform</h3>
+            <p class="tags"><span>PYTHON</span><span>XGBOOST</span><span>SCIKIT-LEARN</span><span>YFINANCE</span><span>STREAMLIT</span><span>PLOTLY</span></p>
+            <ul class="diff">
+              <li>Built an end-to-end stock analysis platform analyzing <b>10+ financial metrics</b>, including ROE, net margin, P/E, and debt ratios.</li>
+              <li>Generated a composite investment score with <b>Buy / Sell / Hold</b> recommendations.</li>
+              <li>Trained an XGBoost classifier using <b>15 engineered features</b> from 2 years of OHLCV data to predict 30-day price direction.</li>
+              <li>Applied scikit-learn for train/test splitting, feature scaling, and accuracy evaluation.</li>
+              <li>Designed an interactive Streamlit dashboard with candlestick charts, ratio scorecards, and ML forecast visualizations.</li>
+              <li>Integrated Plotly and yfinance for financial data visualization and real-time data integration.</li>
+            </ul>
+          </article>
+
+          <div class="projects__row">
+            <article class="card project reveal">
+              <div class="project__top"><span class="tag-pill tag-pill--dim">BI &middot; DASHBOARD</span></div>
+              <h3 class="pixel pixel--md">Hospitality Analytics Dashboard</h3>
+              <p class="tags"><span>POWER BI</span><span>SQL</span><span>POWER QUERY</span><span>DAX</span><span>EXCEL</span></p>
+              <ul class="diff">
+                <li>Developed an interactive Power BI dashboard to analyze hospitality business KPIs.</li>
+                <li>Translated raw data into actionable insights on <b>revenue, occupancy, and customer satisfaction</b>.</li>
+                <li>Collected, cleaned, and transformed data covering bookings, occupancy rates, room revenue, and customer feedback.</li>
+                <li>Used Power Query and DAX to prepare data and create KPI visuals.</li>
+                <li>Built analysis for <b>ADR, RevPAR</b>, and seasonal performance trends.</li>
+              </ul>
+            </article>
+            <article class="card project reveal">
+              <div class="project__top"><span class="tag-pill tag-pill--dim">IOT &middot; SAFETY</span></div>
+              <h3 class="pixel pixel--md">Smart Sewage Worker Safety System</h3>
+              <p class="tags"><span>PYTHON</span><span>IOT SENSORS</span><span>GSM</span><span>MICROCONTROLLER</span></p>
+              <ul class="diff">
+                <li>Designed a real-time IoT safety monitoring system integrating multiple sensor data streams.</li>
+                <li>Used <b>MQ-4, MQ-7 gas sensors</b>, and water-level sensors for threshold-based hazard detection.</li>
+                <li>Implemented automated alerting for detected hazardous conditions.</li>
+                <li>Developed GSM-based automated SMS alerts triggered by data threshold analysis.</li>
+                <li>Validated system reliability through structured test scenarios and documented results for stakeholder reporting.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills" aria-labelledby="skills-h">
+      <div class="wrap">
+        <header class="head reveal">
+          <p class="kicker">// TOOLKIT</p>
+          <h2 class="pixel" id="skills-h" data-text="SKILL_GRAPH">SKILL_GRAPH</h2>
+          <p class="head__sub">Grouped by area &mdash; hover a technology to light it up.</p>
+        </header>
+        <div class="skills">
+          <article class="card reveal"><p class="card__label">Programming</p><p class="tags tags--lg"><span>PYTHON</span><span>SQL</span><span>HTML</span><span>CSS</span></p></article>
+          <article class="card reveal"><p class="card__label">Python &amp; Data Libraries</p><p class="tags tags--lg"><span>PANDAS</span><span>NUMPY</span><span>SCIKIT-LEARN</span></p></article>
+          <article class="card reveal"><p class="card__label">Machine Learning &amp; AI</p><p class="tags tags--lg"><span>MACHINE LEARNING</span><span>XGBOOST</span><span>SCIKIT-LEARN</span><span>DATA PREPROCESSING</span></p></article>
+          <article class="card reveal"><p class="card__label">Analytics &amp; BI</p><p class="tags tags--lg"><span>DATA CLEANING</span><span>DATA WRANGLING</span><span>POWER BI</span><span>DAX</span><span>POWER QUERY</span><span>KPI REPORTING</span><span>DASHBOARD DESIGN</span></p></article>
+          <article class="card reveal"><p class="card__label">Tools &amp; Environment</p><p class="tags tags--lg"><span>JUPYTER NOTEBOOK</span><span>VS CODE</span><span>MICROSOFT EXCEL</span></p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact" aria-labelledby="contact-h">
+      <div class="wrap">
+        <header class="head reveal">
+          <p class="kicker">// CONTACT</p>
+          <h2 class="pixel" id="contact-h" data-text="LET'S_TALK">LET'S_TALK</h2>
+        </header>
+        <div class="term term--lg reveal">
+          <div class="term__bar"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><span>$ contact --analyst richardson-j</span></div>
+          <ul class="term__body">
+            <li class="ok">&#10003; Data Science &amp; Analytics &mdash; Chennai, India</li>
+            <li class="ok">&#10003; 3 projects shipped &mdash; ML, BI, IoT</li>
+            <li class="ok">&#10003; ML Engineer Intern &mdash; NSIC</li>
+            <li class="gap"><span class="k">email</span><a href="mailto:richard141104@gmail.com">richard141104@gmail.com</a></li>
+            <li><span class="k">phone</span><a href="tel:+917550147402">+91 7550147402</a></li>
+            <li class="await">_ Awaiting your message...<i class="caret" aria-hidden="true"></i></li>
+          </ul>
+          <div class="term__actions">
+            <a class="btn btn--primary" href="mailto:richard141104@gmail.com">$ SEND_MESSAGE</a>
+            <a class="btn" href="https://linkedin.com/in/richardson-j" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
+            <a class="btn" href="https://github.com/RichardsonJ14" target="_blank" rel="noopener noreferrer">GITHUB</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__in">
+      <span>&copy; <span id="year">2026</span> Richardson J</span>
+      <a href="#top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="bg.js"></script>
+  <script src="boot.js"></script>
+  <script src="script.js"></script>
+  <script src="fx.js"></script>
+  <script src="cursor.js"></script>
+</body>
+</html>
