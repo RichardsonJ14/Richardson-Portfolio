@@ -3,7 +3,8 @@
 A personal portfolio site with a retro terminal / pixel aesthetic, built with plain HTML, CSS and JavaScript — no frameworks, no build step.
 
 > I turn complex datasets into actionable business insights — through predictive models, clean SQL, and dashboards people actually use.
-n![Portfolio preview](ss-main.png)
+
+![Portfolio preview](ss-main.png)
 
 ## Sections
 
