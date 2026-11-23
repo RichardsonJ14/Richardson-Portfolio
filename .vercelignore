@@ -1,0 +1,10 @@
+# Deploy only the website files
+/*
+!index.html
+!styles.css
+!favicon.svg
+!bg.js
+!boot.js
+!cursor.js
+!fx.js
+!script.js
