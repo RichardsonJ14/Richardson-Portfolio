@@ -27,3 +27,4 @@ node_modules/
 .deploy-richardson-j/
 skills-lock.json
 *.png
+!ss-main.png
