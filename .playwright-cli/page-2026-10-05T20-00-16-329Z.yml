@@ -1,0 +1,287 @@
+- generic [active] [ref=e1]:
+  - status "Loading portfolio" [ref=e2]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: boot.sh
+      - generic [ref=e13]:
+        - paragraph [ref=e14]: Richardson J
+        - paragraph [ref=e15]: Data Science & Analytics
+        - list [aria-hidden] [ref=e16]
+        - generic [aria-hidden] [ref=e19]:
+          - generic [ref=e20]: LOADING
+          - generic [ref=e21]: 0%
+        - button "[ skip >> ]" [ref=e22] [cursor=pointer]
+  - link "Skip to content" [ref=e23] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e24]:
+    - link "Richardson J â€” home" [ref=e25] [cursor=pointer]:
+      - /url: "#top"
+      - generic [aria-hidden] [ref=e26]: █
+      - text: Richardson J
+    - navigation "Primary" [ref=e27]:
+      - link "about" [ref=e28] [cursor=pointer]:
+        - /url: "#about"
+      - link "git_log" [ref=e29] [cursor=pointer]:
+        - /url: "#log"
+      - link "projects" [ref=e30] [cursor=pointer]:
+        - /url: "#projects"
+      - link "skills" [ref=e31] [cursor=pointer]:
+        - /url: "#skills"
+      - link "contact" [ref=e32] [cursor=pointer]:
+        - /url: "#contact"
+    - generic [ref=e33]:
+      - button "Switch accent colour" [ref=e34] [cursor=pointer]: "[ theme ]"
+      - generic [aria-hidden] [ref=e35]: 01:30 IST
+  - main [ref=e36]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e44]: ~/richardson/README.md
+          - generic [ref=e45]: OPEN_TO_WORK
+        - generic [ref=e47]:
+          - generic [aria-hidden]:
+            - generic:
+              - generic: PYTHON
+              - generic: SQL
+              - generic: ML
+              - generic: POWER BI
+              - generic: XGBOOST
+              - generic: DAX
+          - paragraph [ref=e48]: $ whoami
+          - heading "Richardson J" [level=1] [ref=e49]:
+            - generic [aria-hidden] [ref=e50]: R
+            - generic [aria-hidden] [ref=e51]: i
+            - generic [aria-hidden] [ref=e52]: c
+            - generic [aria-hidden] [ref=e53]: h
+            - generic [aria-hidden] [ref=e54]: a
+            - generic [aria-hidden] [ref=e55]: r
+            - generic [aria-hidden] [ref=e56]: d
+            - generic [aria-hidden] [ref=e57]: s
+            - generic [aria-hidden] [ref=e58]: o
+            - generic [aria-hidden] [ref=e59]: "n"
+            - generic [aria-hidden] [ref=e61]: J
+          - paragraph [ref=e62]: "> Data Science & Analytics"
+          - paragraph [ref=e64]: I turn complex datasets into actionable business insights â€” through predictive models, clean SQL, and dashboards people actually use.
+          - generic [ref=e65]:
+            - link "$ view_projects()" [ref=e66] [cursor=pointer]:
+              - /url: "#projects"
+            - link "$ hire --now" [ref=e67] [cursor=pointer]:
+              - /url: mailto:richard141104@gmail.com
+          - list "Quick facts" [ref=e68]:
+            - listitem [ref=e69]: "location: Chennai, India"
+            - listitem [ref=e70]: "degree: B.E. Computer Science Â· 2026"
+            - listitem [ref=e71]: "focus: DS Â· ML Â· BI"
+      - generic "At a glance" [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e74]: "0"
+          - generic [ref=e75]: PROJECTS_SHIPPED
+        - generic [ref=e76]:
+          - generic [ref=e77]: "0"
+          - generic [ref=e78]: ENGINEERED_FEATURES
+        - generic [ref=e79]:
+          - generic [ref=e80]: "0"
+          - generic [ref=e81]: FINANCIAL_METRICS
+        - generic [ref=e82]:
+          - generic [ref=e83]: "0"
+          - generic [ref=e84]: YRS_OHLCV_DATA
+    - region [ref=e85]:
+      - generic [ref=e86]:
+        - generic [ref=e87]: // 01
+        - heading "ABOUT_" [level=2] [ref=e88]
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: summary.txt
+          - generic [ref=e97]:
+            - paragraph [ref=e98]: Aspiring Data Science and Analytics professional with strong skills in Python, SQL, Machine Learning, and Business Intelligence. Skilled in deriving actionable insights from complex datasets and presenting findings through interactive dashboards.
+            - paragraph [ref=e99]: Adept at applying statistical methodologies and predictive modeling to solve real-world business problems.
+        - generic [ref=e100]:
+          - generic [ref=e101]: career_focus.md
+          - generic [ref=e107]:
+            - paragraph [ref=e108]: // currently looking for
+            - list [ref=e109]:
+              - listitem [ref=e110]: "[x] Data Science"
+              - listitem [ref=e111]: "[x] Machine Learning"
+              - listitem [ref=e112]: "[x] Data Analytics"
+              - listitem [ref=e113]: "[x] Business Intelligence"
+              - listitem [ref=e114]: "[x] Python-based data applications"
+            - paragraph [ref=e115]: "Goal: turn data into actionable business insights."
+    - region [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]: // 02
+        - heading "GIT_LOG_" [level=2] [ref=e119]
+      - generic [ref=e120]:
+        - generic [ref=e121]: $ git log --oneline --graph --all
+        - generic [ref=e127]:
+          - group [ref=e128]:
+            - 'generic "* c0a7e19 (HEAD -> main) intern: Machine Learning Engineer Intern @ NSIC Technical Services Centre Dec 2024 â€“ Jan 2025" [ref=e129] [cursor=pointer]':
+              - text: "*"
+              - generic [ref=e130]: c0a7e19
+              - generic [ref=e131]: (HEAD -> main)
+              - generic [ref=e132]: "intern: Machine Learning Engineer Intern @ NSIC Technical Services Centre"
+              - generic [ref=e133]: Dec 2024 â€“ Jan 2025
+            - generic [ref=e134]:
+              - paragraph [ref=e135]: Chennai, India
+              - list [ref=e136]:
+                - listitem [ref=e137]: + Developed a House Price Prediction model using Python, scikit-learn, and XGBoost.
+                - listitem [ref=e138]: + Performed end-to-end data preprocessing, feature engineering, cross-validation, and statistical model evaluation.
+                - listitem [ref=e139]: + Analyzed datasets to derive actionable business insights.
+                - listitem [ref=e140]: + Validated model performance and documented findings in a structured format to communicate results effectively.
+              - paragraph [ref=e141]:
+                - generic [ref=e142]: Python
+                - generic [ref=e143]: scikit-learn
+                - generic [ref=e144]: XGBoost
+          - group [ref=e145]:
+            - 'generic "* 8d41b3f (edu) edu: B.E. â€” Computer Science @ Easwari Engineering College 2023 â€“ 2026" [ref=e146] [cursor=pointer]':
+              - text: "*"
+              - generic [ref=e147]: 8d41b3f
+              - generic [ref=e148]: (edu)
+              - generic [ref=e149]: "edu: B.E. â€” Computer Science @ Easwari Engineering College"
+              - generic [ref=e150]: 2023 â€“ 2026
+          - group [ref=e151]:
+            - 'generic "* 5be92a0 (edu) edu: Diploma â€” Computer Engineering @ Panimalar Polytechnic College 2020 â€“ 2023" [ref=e152] [cursor=pointer]':
+              - text: "*"
+              - generic [ref=e153]: 5be92a0
+              - generic [ref=e154]: (edu)
+              - generic [ref=e155]: "edu: Diploma â€” Computer Engineering @ Panimalar Polytechnic College"
+              - generic [ref=e156]: 2020 â€“ 2023
+          - group [ref=e157]:
+            - 'generic "* 1f6c7d4 (edu) edu: 10th Grade (CBSE) @ SBOA School & Junior College 2019 â€“ 2020" [ref=e158] [cursor=pointer]':
+              - text: "*"
+              - generic [ref=e159]: 1f6c7d4
+              - generic [ref=e160]: (edu)
+              - generic [ref=e161]: "edu: 10th Grade (CBSE) @ SBOA School & Junior College"
+              - generic [ref=e162]: 2019 â€“ 2020
+          - paragraph [ref=e163]: 4 commits shown Â· click a commit to expand
+    - region [ref=e164]:
+      - generic [ref=e165]:
+        - generic [ref=e166]: // 03
+        - heading "PROJECTS_" [level=2] [ref=e167]
+      - generic [ref=e168]:
+        - article [ref=e169]:
+          - generic [ref=e170]:
+            - generic [ref=e175]: $ python stock_research.py
+            - generic [ref=e176]: ML Â· FINTECH
+          - generic [ref=e177]:
+            - heading "AI-Powered Stock Research & Analysis Platform" [level=3] [ref=e178]
+            - paragraph [ref=e179]:
+              - generic [ref=e180]: Python
+              - generic [ref=e181]: XGBoost
+              - generic [ref=e182]: scikit-learn
+              - generic [ref=e183]: yfinance
+              - generic [ref=e184]: Streamlit
+              - generic [ref=e185]: Plotly
+            - list [ref=e186]:
+              - listitem [ref=e187]: + Built an end-to-end stock analysis platform analyzing 10+ financial metrics, including ROE, net margin, P/E, and debt ratios.
+              - listitem [ref=e188]: + Generated a composite investment score with Buy / Sell / Hold recommendations.
+              - listitem [ref=e189]: + Trained an XGBoost classifier using 15 engineered features from 2 years of OHLCV data to predict 30-day price direction.
+              - listitem [ref=e190]: + Applied scikit-learn for train/test splitting, feature scaling, and accuracy evaluation.
+              - listitem [ref=e191]: + Designed an interactive Streamlit dashboard with candlestick charts, ratio scorecards, and ML forecast visualizations.
+              - listitem [ref=e192]: + Integrated Plotly and yfinance for financial data visualization and real-time data integration.
+        - article [ref=e193]:
+          - generic [ref=e194]:
+            - generic [ref=e199]: $ open hospitality.pbix
+            - generic [ref=e200]: BI Â· DASHBOARD
+          - generic [ref=e201]:
+            - heading "Hospitality Analytics Dashboard" [level=3] [ref=e202]
+            - paragraph [ref=e203]:
+              - generic [ref=e204]: Power BI
+              - generic [ref=e205]: SQL
+              - generic [ref=e206]: Power Query
+              - generic [ref=e207]: DAX
+              - generic [ref=e208]: Excel
+            - list [ref=e209]:
+              - listitem [ref=e210]: + Developed an interactive Power BI dashboard to analyze hospitality business KPIs.
+              - listitem [ref=e211]: + Translated raw data into actionable insights on revenue, occupancy, and customer satisfaction.
+              - listitem [ref=e212]: + Collected, cleaned, and transformed data covering bookings, occupancy rates, room revenue, and customer feedback.
+              - listitem [ref=e213]: + Used Power Query and DAX to prepare data and create KPI visuals.
+              - listitem [ref=e214]: + Built analysis for ADR, RevPAR, and seasonal performance trends.
+        - article [ref=e215]:
+          - generic [ref=e216]:
+            - generic [ref=e221]: $ ./monitor --sensors
+            - generic [ref=e222]: IOT Â· SAFETY
+          - generic [ref=e223]:
+            - heading "Smart Sewage Worker Safety System" [level=3] [ref=e224]
+            - paragraph [ref=e225]:
+              - generic [ref=e226]: Python
+              - generic [ref=e227]: IoT Sensors
+              - generic [ref=e228]: GSM
+              - generic [ref=e229]: Microcontroller
+            - list [ref=e230]:
+              - listitem [ref=e231]: + Designed a real-time IoT safety monitoring system integrating multiple sensor data streams.
+              - listitem [ref=e232]: + Used MQ-4, MQ-7 gas sensors, and water-level sensors for threshold-based hazard detection.
+              - listitem [ref=e233]: + Implemented automated alerting for detected hazardous conditions.
+              - listitem [ref=e234]: + Developed GSM-based automated SMS alerts triggered by data threshold analysis.
+              - listitem [ref=e235]: + Validated system reliability through structured test scenarios and documented results for stakeholder reporting.
+    - region [ref=e236]:
+      - generic [ref=e237]:
+        - generic [ref=e238]: // 04
+        - heading "SKILLS_" [level=2] [ref=e239]
+      - generic [ref=e240]:
+        - generic [ref=e241]:
+          - generic [ref=e242]: programming/
+          - paragraph [ref=e249]:
+            - generic [ref=e250]: Python
+            - generic [ref=e251]: SQL
+            - generic [ref=e252]: HTML
+            - generic [ref=e253]: CSS
+        - generic [ref=e254]:
+          - generic [ref=e255]: python_data_libs/
+          - paragraph [ref=e262]:
+            - generic [ref=e263]: pandas
+            - generic [ref=e264]: NumPy
+            - generic [ref=e265]: scikit-learn
+        - generic [ref=e266]:
+          - generic [ref=e267]: ml_and_ai/
+          - paragraph [ref=e274]:
+            - generic [ref=e275]: Machine Learning
+            - generic [ref=e276]: XGBoost
+            - generic [ref=e277]: scikit-learn
+            - generic [ref=e278]: Data Preprocessing
+        - generic [ref=e279]:
+          - generic [ref=e280]: analytics_and_bi/
+          - paragraph [ref=e287]:
+            - generic [ref=e288]: Data Cleaning
+            - generic [ref=e289]: Data Wrangling
+            - generic [ref=e290]: Power BI
+            - generic [ref=e291]: DAX
+            - generic [ref=e292]: Power Query
+            - generic [ref=e293]: KPI Reporting
+            - generic [ref=e294]: Dashboard Design
+        - generic [ref=e295]:
+          - generic [ref=e296]: tools_env/
+          - paragraph [ref=e303]:
+            - generic [ref=e304]: Jupyter Notebook
+            - generic [ref=e305]: VS Code
+            - generic [ref=e306]: Microsoft Excel
+    - region [ref=e307]:
+      - generic [ref=e308]:
+        - generic [ref=e309]: // 05
+        - heading "CONTACT_" [level=2] [ref=e310]
+      - generic [ref=e311]:
+        - generic [ref=e312]: $ ./hire.sh
+        - generic [ref=e318]:
+          - paragraph [ref=e319]: Have a data problem worth solving? Let's talk.
+          - list [ref=e320]:
+            - listitem [ref=e321]:
+              - text: "email:"
+              - link "richard141104@gmail.com" [ref=e322] [cursor=pointer]:
+                - /url: mailto:richard141104@gmail.com
+            - listitem [ref=e323]:
+              - text: "phone:"
+              - link "+91 7550147402" [ref=e324] [cursor=pointer]:
+                - /url: tel:+917550147402
+            - listitem [ref=e325]:
+              - text: "linkedin:"
+              - link "linkedin.com/in/richardson-j" [ref=e326] [cursor=pointer]:
+                - /url: https://linkedin.com/in/richardson-j
+            - listitem [ref=e327]:
+              - text: "github:"
+              - link "github.com/RichardsonJ14" [ref=e328] [cursor=pointer]:
+                - /url: https://github.com/RichardsonJ14
+            - listitem [ref=e329]: "location: Chennai, India"
+          - link "$ send_message()" [ref=e330] [cursor=pointer]:
+            - /url: mailto:richard141104@gmail.com
+  - contentinfo [ref=e331]:
+    - generic [ref=e332]: Â© 2026 Richardson J
+    - generic [ref=e333]: built with HTML Â· CSS Â· JS
+    - link "[ â†‘ top ]" [ref=e334] [cursor=pointer]:
+      - /url: "#top"
