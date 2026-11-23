@@ -18,3 +18,12 @@ node_modules/
 
 # Local Claude settings
 .claude/settings.local.json
+
+# Not part of the website (kept locally only)
+.agents/
+.claude/
+.playwright/
+.playwright-cli/
+.deploy-richardson-j/
+skills-lock.json
+*.png

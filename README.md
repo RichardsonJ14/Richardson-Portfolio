@@ -4,8 +4,6 @@ A personal portfolio site with a retro terminal / pixel aesthetic, built with pl
 
 > I turn complex datasets into actionable business insights — through predictive models, clean SQL, and dashboards people actually use.
 
-![Portfolio preview](ss-main.png)
-
 ## Sections
 
 | Section | What it shows |
@@ -40,9 +38,7 @@ A personal portfolio site with a retro terminal / pixel aesthetic, built with pl
 ├── script.js           # Navigation, counters, interactions
 ├── fx.js               # Visual effects
 ├── cursor.js           # Custom cursor
-├── favicon.svg         # Site icon
-├── *.png               # Screenshots of the site
-└── .deploy-richardson-j/  # Deployment copy of the site
+└── favicon.svg         # Site icon
 ```
 
 ## Run locally
