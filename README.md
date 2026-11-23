@@ -1,4 +1,4 @@
-# Richardson J — Data Science & Analytics Portfolio
+# Richardson J Portfolio
 
 A personal portfolio site with a retro terminal / pixel aesthetic, built with plain HTML, CSS and JavaScript — no frameworks, no build step.
 
